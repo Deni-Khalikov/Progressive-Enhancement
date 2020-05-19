@@ -1,0 +1,101 @@
+body { 
+    max-width: 90%; 
+    margin: auto;
+    background: -webkit-linear-gradient(89deg, rgb(104, 183, 255), rgb(255, 110, 224));
+    background: linear-gradient(89deg, rgb(104, 183, 255), rgb(255, 110, 224));
+    background-image: float-left;
+        
+
+   /* background-image: url(https://images3.alphacoders.com/954/thumb-1920-954241.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;*/
+}
+
+
+
+p{
+    color: darkblue;
+    font-family: serif;
+    word-spacing: 1px;
+    font-size: 20px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+a:visited{
+    color:darkblue;
+}
+
+q.villagers{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: 3px solid red;
+    
+    margin: auto;
+    padding-left: 30px;
+
+    font-style: italic;
+}
+
+q.farmer{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: 3px solid green;
+    
+    margin: auto;
+    padding-left: 30px;
+
+    font-style: italic;
+}
+
+header>h1{
+    background-color: yellow;
+    /*need to ask this to be sure*/
+}
+
+a[target="_blank"]{
+    background-color: yellow;
+
+}
+
+
+em{
+    text-transform: capitalize;
+}
+
+em.bad{
+    color: red;
+}
+
+em.good{
+    color: green;
+}
+
+p.bold{
+    font-weight: bold;
+}
+
+td.row1{
+    background-color: white;
+}
+
+td.row2{
+    background-color: grey;
+}
+
+img{
+    float: left;
+    margin-right: 80px;
+}
